@@ -26,33 +26,27 @@ A Rust-based service that collects and displays the latest cryptocurrency news f
 ```
 crypto_news_aggregator/
 ├── src/
-│   ├── api/              # API client implementations
+│   ├── api/
 │   │   ├── cryptopanic.rs
 │   │   ├── coingecko.rs
 │   │   ├── mod.rs
 │   │   └── tests.rs
-│   ├── models/           # Data models
+│   ├── models/
 │   │   ├── news.rs
 │   │   ├── error.rs
 │   │   └── mod.rs
-│   ├── services/         # Business logic
+│   ├── services/
 │   │   ├── news_service.rs
 │   │   ├── rate_limiter.rs
 │   │   ├── mod.rs
 │   │   └── tests.rs
-│   ├── web/              # Web interface
-│   │   ├── handlers.rs
-│   │   ├── routes.rs
-│   │   ├── mod.rs
-│   │   ├── tests.rs
-│   │   ├── templates/    # HTML templates
+│   ├── web/ 
 │   │   │   ├── index.html
-│   │   │   └── results.html
-│   │   └── static/       # Static assets
-│   │       └── css/
-│   │           └── style.css
-│   └── main.rs           # Application entry point
-└── Cargo.toml            # Project dependencies
+│   │   |   ├── style.css
+|   |   |   |── app.js
+|   |── web_api.rs
+│   └── main.rs 
+└── Cargo.toml   
 ```
 
 ## Setup and Installation
