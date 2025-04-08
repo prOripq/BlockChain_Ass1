@@ -56,38 +56,26 @@ crypto_news_aggregator/
 
 ## Setup and Installation
 
-1. Install Rust and Cargo (if not already installed):
+
+1. Set up API:
    ```
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   $env:CRYPTOPANIC_API_KEY = "Your API here"
+   export PORT="port that you want to host(For Example 2020)"
    ```
 
-2. Clone the repository:
+2.  Run the application:
    ```
-   git clone https://github.com/yourusername/crypto_news_aggregator.git
-   cd crypto_news_aggregator
-   ```
-
-3. Set up environment variables (optional):
-   ```
-   export CRYPTOPANIC_API_KEY="your_api_key_here"
-   export PORT="8080"
-   ```
-
-4. Build and run the application:
-   ```
-   cargo build --release
-   cargo run --release
+   cargo run
    ```
 
 5. Open your browser and navigate to:
    ```
-   http://localhost:8080
+   http://localhost:2020
    ```
 
 ## API Keys
 
 - CryptoPanic: Get your API key from [https://cryptopanic.com/developers/api/](https://cryptopanic.com/developers/api/)
-- CoinGecko: Free tier doesn't require an API key
 
 ## Testing
 
