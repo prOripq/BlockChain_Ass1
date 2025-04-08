@@ -9,11 +9,11 @@ A Rust-based service that collects and displays the latest cryptocurrency news f
 
 ## Key Features
 
-- Search news by cryptocurrency name or symbol
-- Fetch data from multiple APIs (CryptoPanic and CoinGecko)
+- Fetch data from CryptoPanic
 - Display news title, source, date, and summary
+- Search news by cryptocurrency name or symbol
 - Handle errors and API rate limits
-- Simple web interface for user interaction
+- Simple UX and UI
 
 ## Project Structure
 
