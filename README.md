@@ -7,19 +7,13 @@ A Rust-based service that collects and displays the latest cryptocurrency news f
 
 
 
-## Features
+## Key Features
 
 - Search news by cryptocurrency name or symbol
 - Fetch data from multiple APIs (CryptoPanic and CoinGecko)
 - Display news title, source, date, and summary
 - Handle errors and API rate limits
 - Simple web interface for user interaction
-
-## Technology Stack
-
-- Backend: Rust with Actix-web framework
-- Frontend: HTML/CSS with Tera templates
-- Data Sources: CryptoNews API, CoinGecko API
 
 ## Project Structure
 
