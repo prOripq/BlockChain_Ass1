@@ -1,8 +1,9 @@
 # Cryptocurrency News Aggregator
+Done by SE-2315: Yussupov Zhangir, Arlen Baybossin, Yeskendir 
 
 A Rust-based service that collects and displays the latest cryptocurrency news from multiple sources. Users can enter a cryptocurrency name or symbol to retrieve recent news articles.
 
-Done by SE-2315: Almen Alnur, Kamilya Tlegenova, Nuray Kabylkhanova
+
 
 ## Features
 
