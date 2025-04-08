@@ -15,6 +15,17 @@ A Rust-based service that collects and displays the latest cryptocurrency news f
 - Handle errors and API rate limits
 - Simple UX and UI
 
+
+## ScreenShots
+![image](https://github.com/user-attachments/assets/3964c1e3-bb62-4412-888d-f56605bce878)
+![image](https://github.com/user-attachments/assets/53bb0a3c-daf3-4900-808a-59623508c110)
+![image](https://github.com/user-attachments/assets/dfceb62d-1f47-4c59-8472-99c53279a759)
+![image](https://github.com/user-attachments/assets/c9d8329e-555e-4c3f-8f8d-1c9b26346ca4)
+
+
+
+
+
 ## Project Structure
 
 ```
